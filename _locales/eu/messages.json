@@ -1,0 +1,132 @@
+{
+  "extensionName": {
+    "message": "Testu estatistikak",
+    "description": "The name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Testu estatistikak",
+    "description": "The short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Analizatu hautatutako testua edo orri osoko testua eta erakutsi estatistika zehatzak.",
+    "description": "The description of the extension shown in the Chrome Web Store and extensions page"
+  },
+  "extensionTitle": {
+    "message": "Testu estatistikak",
+    "description": "The tooltip title shown when hovering the extension icon"
+  },
+  "popupHeading": {
+    "message": "Testu estatistikak",
+    "description": "Main heading displayed at the top of the popup"
+  },
+  "popupSubheading": {
+    "message": "Testuaren analisi begirada batean",
+    "description": "Subheading displayed below the main heading in the popup"
+  },
+  "toggleFullPage": {
+    "message": "Analizatu orri osoa",
+    "description": "Label for the toggle button that switches to full-page analysis mode"
+  },
+  "toggleSelection": {
+    "message": "Analizatu hautapena",
+    "description": "Label for the toggle button that switches to selected-text analysis mode"
+  },
+  "modeSelected": {
+    "message": "Analizatzen: Hautatutako testua",
+    "description": "Status badge text shown when the extension is analyzing the selected text"
+  },
+  "modeFullPage": {
+    "message": "Analizatzen: Orri osoa",
+    "description": "Status badge text shown when the extension is analyzing the full page text"
+  },
+  "spinnerLabel": {
+    "message": "Testua analizatzen\u2026",
+    "description": "Accessible label and visible text shown next to the loading spinner"
+  },
+  "statCharactersWithSpaces": {
+    "message": "Karaktereak (tartekiekin)",
+    "description": "Label for the character count statistic that includes spaces"
+  },
+  "statCharactersNoSpaces": {
+    "message": "Karaktereak (tartekirik gabe)",
+    "description": "Label for the character count statistic that excludes spaces"
+  },
+  "statWords": {
+    "message": "Hitz kopurua",
+    "description": "Label for the total word count statistic"
+  },
+  "statSentences": {
+    "message": "Esaldi kopurua",
+    "description": "Label for the total sentence count statistic"
+  },
+  "statParagraphs": {
+    "message": "Paragrafo kopurua",
+    "description": "Label for the total paragraph count statistic"
+  },
+  "statReadingTime": {
+    "message": "Irakurketa denbora",
+    "description": "Label for the estimated reading time statistic"
+  },
+  "statUniqueWords": {
+    "message": "Hitz bakarrak",
+    "description": "Label for the unique word count statistic"
+  },
+  "statLongestWord": {
+    "message": "Hitzik luzeena",
+    "description": "Label for the longest word found in the text"
+  },
+  "readingTimeMinutes": {
+    "message": "$MINUTES$ min",
+    "description": "Formatted reading time value. $MINUTES$ is replaced with the number of minutes.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "2.5"
+      }
+    }
+  },
+  "readingTimeLessThanHalf": {
+    "message": "< 0,5 min",
+    "description": "Reading time label shown when the text is very short (less than half a minute)"
+  },
+  "noTextFound": {
+    "message": "Ez da testu irakurgarririk aurkitu orri honetan.",
+    "description": "Message shown when the extension cannot find any text to analyze"
+  },
+  "errorGeneric": {
+    "message": "Ezin da orri hau analizatu. Saiatu beste fitxa batekin.",
+    "description": "Generic error message shown when the extension fails to access or analyze the page"
+  },
+  "errorRestrictedPage": {
+    "message": "Orri hau ezin da analizatu (URL mugatua).",
+    "description": "Error message shown when the extension tries to run on a restricted browser page such as chrome:// or the Web Store"
+  },
+  "noSelectionFallback": {
+    "message": "Ez da testurik hautatu — orri osoko estatistikak erakusten.",
+    "description": "Informational notice shown when the user has no text selected and the extension falls back to full-page analysis"
+  },
+  "footerNote": {
+    "message": "Irakurketa abiadura: 200 hitz/min",
+    "description": "Small footer note explaining the reading speed assumption used for the reading time calculation"
+  },
+  "copyButton": {
+    "message": "Kopiatu estatistikak",
+    "description": "Label for the button that copies the statistics to the clipboard"
+  },
+  "copySuccess": {
+    "message": "Kopiatuta!",
+    "description": "Temporary feedback message shown after the stats have been successfully copied to the clipboard"
+  },
+  "copyError": {
+    "message": "Kopiaketak huts egin du",
+    "description": "Temporary feedback message shown when copying to the clipboard fails"
+  },
+  "zeroValue": {
+    "message": "0",
+    "description": "Displayed value when a statistic is zero"
+  },
+  "noneValue": {
+    "message": "\u2014",
+    "description": "Displayed value when a statistic has no applicable result, such as the longest word when there are no words"
+  }
+}

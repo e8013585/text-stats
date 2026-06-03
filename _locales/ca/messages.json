@@ -1,0 +1,132 @@
+{
+  "extensionName": {
+    "message": "Estadístiques de text",
+    "description": "The name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Estadístiques de text",
+    "description": "The short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Analitzeu el text seleccionat o el text complet de la pàgina i mostreu estadístiques detallades.",
+    "description": "The description of the extension shown in the Chrome Web Store and extensions page"
+  },
+  "extensionTitle": {
+    "message": "Estadístiques de text",
+    "description": "The tooltip title shown when hovering the extension icon"
+  },
+  "popupHeading": {
+    "message": "Estadístiques de text",
+    "description": "Main heading displayed at the top of the popup"
+  },
+  "popupSubheading": {
+    "message": "Anàlisi de text d'un cop d'ull",
+    "description": "Subheading displayed below the main heading in the popup"
+  },
+  "toggleFullPage": {
+    "message": "Analitzar la pàgina sencera",
+    "description": "Label for the toggle button that switches to full-page analysis mode"
+  },
+  "toggleSelection": {
+    "message": "Analitzar la selecció",
+    "description": "Label for the toggle button that switches to selected-text analysis mode"
+  },
+  "modeSelected": {
+    "message": "Analitzant: Text seleccionat",
+    "description": "Status badge text shown when the extension is analyzing the selected text"
+  },
+  "modeFullPage": {
+    "message": "Analitzant: Pàgina sencera",
+    "description": "Status badge text shown when the extension is analyzing the full page text"
+  },
+  "spinnerLabel": {
+    "message": "S'està analitzant el text\u2026",
+    "description": "Accessible label and visible text shown next to the loading spinner"
+  },
+  "statCharactersWithSpaces": {
+    "message": "Caràcters (amb espais)",
+    "description": "Label for the character count statistic that includes spaces"
+  },
+  "statCharactersNoSpaces": {
+    "message": "Caràcters (sense espais)",
+    "description": "Label for the character count statistic that excludes spaces"
+  },
+  "statWords": {
+    "message": "Recompte de paraules",
+    "description": "Label for the total word count statistic"
+  },
+  "statSentences": {
+    "message": "Recompte d'oracions",
+    "description": "Label for the total sentence count statistic"
+  },
+  "statParagraphs": {
+    "message": "Recompte de paràgrafs",
+    "description": "Label for the total paragraph count statistic"
+  },
+  "statReadingTime": {
+    "message": "Temps de lectura",
+    "description": "Label for the estimated reading time statistic"
+  },
+  "statUniqueWords": {
+    "message": "Paraules úniques",
+    "description": "Label for the unique word count statistic"
+  },
+  "statLongestWord": {
+    "message": "Paraula més llarga",
+    "description": "Label for the longest word found in the text"
+  },
+  "readingTimeMinutes": {
+    "message": "$MINUTES$ min",
+    "description": "Formatted reading time value. $MINUTES$ is replaced with the number of minutes.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "2.5"
+      }
+    }
+  },
+  "readingTimeLessThanHalf": {
+    "message": "< 0,5 min",
+    "description": "Reading time label shown when the text is very short (less than half a minute)"
+  },
+  "noTextFound": {
+    "message": "No s'ha trobat text llegible en aquesta pàgina.",
+    "description": "Message shown when the extension cannot find any text to analyze"
+  },
+  "errorGeneric": {
+    "message": "No es pot analitzar aquesta pàgina. Proveu amb una altra pestanya.",
+    "description": "Generic error message shown when the extension fails to access or analyze the page"
+  },
+  "errorRestrictedPage": {
+    "message": "Aquesta pàgina no es pot analitzar (URL restringit).",
+    "description": "Error message shown when the extension tries to run on a restricted browser page such as chrome:// or the Web Store"
+  },
+  "noSelectionFallback": {
+    "message": "No s'ha seleccionat cap text — es mostren les estadístiques de tota la pàgina.",
+    "description": "Informational notice shown when the user has no text selected and the extension falls back to full-page analysis"
+  },
+  "footerNote": {
+    "message": "Velocitat de lectura: 200 paraules/min",
+    "description": "Small footer note explaining the reading speed assumption used for the reading time calculation"
+  },
+  "copyButton": {
+    "message": "Copiar estadístiques",
+    "description": "Label for the button that copies the statistics to the clipboard"
+  },
+  "copySuccess": {
+    "message": "Copiat!",
+    "description": "Temporary feedback message shown after the stats have been successfully copied to the clipboard"
+  },
+  "copyError": {
+    "message": "Error en copiar",
+    "description": "Temporary feedback message shown when copying to the clipboard fails"
+  },
+  "zeroValue": {
+    "message": "0",
+    "description": "Displayed value when a statistic is zero"
+  },
+  "noneValue": {
+    "message": "\u2014",
+    "description": "Displayed value when a statistic has no applicable result, such as the longest word when there are no words"
+  }
+}

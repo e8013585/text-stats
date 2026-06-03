@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self'; style-src 'self'; script-src 'self';" />
+    <link rel="stylesheet" href="popup.css" />
+    <title></title>
+  </head>
+  <body>
+    <div id="app">
+
+      <header id="header">
+        <div id="header-text">
+          <h1 id="heading"></h1>
+          <p id="subheading"></p>
+        </div>
+        <div id="mode-badge-wrapper">
+          <span id="mode-badge"></span>
+        </div>
+      </header>
+
+      <div id="toolbar">
+        <button id="toggle-mode-btn" type="button"></button>
+        <button id="copy-btn" type="button"></button>
+      </div>
+
+      <div id="spinner-wrapper" aria-live="polite" aria-atomic="true">
+        <div id="spinner" role="status">
+          <div class="spinner-ring"></div>
+          <span id="spinner-label"></span>
+        </div>
+      </div>
+
+      <div id="notice-wrapper" hidden>
+        <p id="notice-text"></p>
+      </div>
+
+      <main id="stats-wrapper" hidden>
+        <dl id="stats-grid"></dl>
+      </main>
+
+      <footer id="footer">
+        <span id="footer-note"></span>
+      </footer>
+
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

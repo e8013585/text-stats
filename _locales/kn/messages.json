@@ -1,0 +1,132 @@
+{
+  "extensionName": {
+    "message": "ಟೆಕ್ಸ್ಟ್ ಸ್ಟ್ಯಾಟ್ಸ್",
+    "description": "The name of the extension"
+  },
+  "extensionShortName": {
+    "message": "ಟೆಕ್ಸ್ಟ್ ಸ್ಟ್ಯಾಟ್ಸ್",
+    "description": "The short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "ಆಯ್ಕೆಮಾಡಿದ ಪಠ್ಯ ಅಥವಾ ಸಂಪೂರ್ಣ ಪುಟದ ಪಠ್ಯವನ್ನು ವಿಶ್ಲೇಷಿಸಿ ಮತ್ತು ವಿವರವಾದ ಅಂಕಿಅಂಶಗಳನ್ನು ಪ್ರದರ್ಶಿಸಿ.",
+    "description": "The description of the extension shown in the Chrome Web Store and extensions page"
+  },
+  "extensionTitle": {
+    "message": "ಟೆಕ್ಸ್ಟ್ ಸ್ಟ್ಯಾಟ್ಸ್",
+    "description": "The tooltip title shown when hovering the extension icon"
+  },
+  "popupHeading": {
+    "message": "ಟೆಕ್ಸ್ಟ್ ಸ್ಟ್ಯಾಟ್ಸ್",
+    "description": "Main heading displayed at the top of the popup"
+  },
+  "popupSubheading": {
+    "message": "ಒಂದು ನೋಟದಲ್ಲಿ ಪಠ್ಯ ವಿಶ್ಲೇಷಣೆ",
+    "description": "Subheading displayed below the main heading in the popup"
+  },
+  "toggleFullPage": {
+    "message": "ಸಂಪೂರ್ಣ ಪುಟವನ್ನು ವಿಶ್ಲೇಷಿಸಿ",
+    "description": "Label for the toggle button that switches to full-page analysis mode"
+  },
+  "toggleSelection": {
+    "message": "ಆಯ್ಕೆಯನ್ನು ವಿಶ್ಲೇಷಿಸಿ",
+    "description": "Label for the toggle button that switches to selected-text analysis mode"
+  },
+  "modeSelected": {
+    "message": "ವಿಶ್ಲೇಷಿಸಲಾಗುತ್ತಿದೆ: ಆಯ್ಕೆಮಾಡಿದ ಪಠ್ಯ",
+    "description": "Status badge text shown when the extension is analyzing the selected text"
+  },
+  "modeFullPage": {
+    "message": "ವಿಶ್ಲೇಷಿಸಲಾಗುತ್ತಿದೆ: ಸಂಪೂರ್ಣ ಪುಟ",
+    "description": "Status badge text shown when the extension is analyzing the full page text"
+  },
+  "spinnerLabel": {
+    "message": "ಪಠ್ಯ ವಿಶ್ಲೇಷಿಸಲಾಗುತ್ತಿದೆ\u2026",
+    "description": "Accessible label and visible text shown next to the loading spinner"
+  },
+  "statCharactersWithSpaces": {
+    "message": "ಅಕ್ಷರಗಳು (ಖಾಲಿ ಜಾಗ ಸಹಿತ)",
+    "description": "Label for the character count statistic that includes spaces"
+  },
+  "statCharactersNoSpaces": {
+    "message": "ಅಕ್ಷರಗಳು (ಖಾಲಿ ಜಾಗ ರಹಿತ)",
+    "description": "Label for the character count statistic that excludes spaces"
+  },
+  "statWords": {
+    "message": "ಪದಗಳ ಎಣಿಕೆ",
+    "description": "Label for the total word count statistic"
+  },
+  "statSentences": {
+    "message": "ವಾಕ್ಯಗಳ ಎಣಿಕೆ",
+    "description": "Label for the total sentence count statistic"
+  },
+  "statParagraphs": {
+    "message": "ಪ್ಯಾರಾಗಳ ಎಣಿಕೆ",
+    "description": "Label for the total paragraph count statistic"
+  },
+  "statReadingTime": {
+    "message": "ಓದುವ ಸಮಯ",
+    "description": "Label for the estimated reading time statistic"
+  },
+  "statUniqueWords": {
+    "message": "ಅನನ್ಯ ಪದಗಳು",
+    "description": "Label for the unique word count statistic"
+  },
+  "statLongestWord": {
+    "message": "ಅತಿ ಉದ್ದದ ಪದ",
+    "description": "Label for the longest word found in the text"
+  },
+  "readingTimeMinutes": {
+    "message": "$MINUTES$ ನಿಮಿಷ",
+    "description": "Formatted reading time value. $MINUTES$ is replaced with the number of minutes.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "2.5"
+      }
+    }
+  },
+  "readingTimeLessThanHalf": {
+    "message": "< 0.5 ನಿಮಿಷ",
+    "description": "Reading time label shown when the text is very short (less than half a minute)"
+  },
+  "noTextFound": {
+    "message": "ಈ ಪುಟದಲ್ಲಿ ಯಾವುದೇ ಓದಬಲ್ಲ ಪಠ್ಯ ಕಂಡುಬಂದಿಲ್ಲ.",
+    "description": "Message shown when the extension cannot find any text to analyze"
+  },
+  "errorGeneric": {
+    "message": "ಈ ಪುಟವನ್ನು ವಿಶ್ಲೇಷಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಬೇರೆ ಟ್ಯಾಬ್ ಪ್ರಯತ್ನಿಸಿ.",
+    "description": "Generic error message shown when the extension fails to access or analyze the page"
+  },
+  "errorRestrictedPage": {
+    "message": "ಈ ಪುಟವನ್ನು ವಿಶ್ಲೇಷಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ (ನಿರ್ಬಂಧಿತ URL).",
+    "description": "Error message shown when the extension tries to run on a restricted browser page such as chrome:// or the Web Store"
+  },
+  "noSelectionFallback": {
+    "message": "ಯಾವುದೇ ಪಠ್ಯ ಆಯ್ಕೆಮಾಡಿಲ್ಲ — ಸಂಪೂರ್ಣ ಪುಟದ ಅಂಕಿಅಂಶಗಳನ್ನು ತೋರಿಸಲಾಗುತ್ತಿದೆ.",
+    "description": "Informational notice shown when the user has no text selected and the extension falls back to full-page analysis"
+  },
+  "footerNote": {
+    "message": "ಓದುವ ವೇಗ: ನಿಮಿಷಕ್ಕೆ 200 ಪದಗಳು",
+    "description": "Small footer note explaining the reading speed assumption used for the reading time calculation"
+  },
+  "copyButton": {
+    "message": "ಅಂಕಿಅಂಶಗಳನ್ನು ನಕಲಿಸಿ",
+    "description": "Label for the button that copies the statistics to the clipboard"
+  },
+  "copySuccess": {
+    "message": "ನಕಲಿಸಲಾಗಿದೆ!",
+    "description": "Temporary feedback message shown after the stats have been successfully copied to the clipboard"
+  },
+  "copyError": {
+    "message": "ನಕಲು ವಿಫಲವಾಗಿದೆ",
+    "description": "Temporary feedback message shown when copying to the clipboard fails"
+  },
+  "zeroValue": {
+    "message": "೦",
+    "description": "Displayed value when a statistic is zero"
+  },
+  "noneValue": {
+    "message": "\u2014",
+    "description": "Displayed value when a statistic has no applicable result, such as the longest word when there are no words"
+  }
+}

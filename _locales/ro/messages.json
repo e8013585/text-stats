@@ -1,0 +1,132 @@
+{
+  "extensionName": {
+    "message": "Statistici text",
+    "description": "The name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Statistici text",
+    "description": "The short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Analizează textul selectat sau textul întregii pagini și afișează statistici detaliate.",
+    "description": "The description of the extension shown in the Chrome Web Store and extensions page"
+  },
+  "extensionTitle": {
+    "message": "Statistici text",
+    "description": "The tooltip title shown when hovering the extension icon"
+  },
+  "popupHeading": {
+    "message": "Statistici text",
+    "description": "Main heading displayed at the top of the popup"
+  },
+  "popupSubheading": {
+    "message": "Analiză text dintr-o privire",
+    "description": "Subheading displayed below the main heading in the popup"
+  },
+  "toggleFullPage": {
+    "message": "Analizează pagina întreagă",
+    "description": "Label for the toggle button that switches to full-page analysis mode"
+  },
+  "toggleSelection": {
+    "message": "Analizează selecția",
+    "description": "Label for the toggle button that switches to selected-text analysis mode"
+  },
+  "modeSelected": {
+    "message": "Se analizează: Text selectat",
+    "description": "Status badge text shown when the extension is analyzing the selected text"
+  },
+  "modeFullPage": {
+    "message": "Se analizează: Pagina întreagă",
+    "description": "Status badge text shown when the extension is analyzing the full page text"
+  },
+  "spinnerLabel": {
+    "message": "Se analizează textul\u2026",
+    "description": "Accessible label and visible text shown next to the loading spinner"
+  },
+  "statCharactersWithSpaces": {
+    "message": "Caractere (cu spații)",
+    "description": "Label for the character count statistic that includes spaces"
+  },
+  "statCharactersNoSpaces": {
+    "message": "Caractere (fără spații)",
+    "description": "Label for the character count statistic that excludes spaces"
+  },
+  "statWords": {
+    "message": "Număr cuvinte",
+    "description": "Label for the total word count statistic"
+  },
+  "statSentences": {
+    "message": "Număr propoziții",
+    "description": "Label for the total sentence count statistic"
+  },
+  "statParagraphs": {
+    "message": "Număr paragrafe",
+    "description": "Label for the total paragraph count statistic"
+  },
+  "statReadingTime": {
+    "message": "Timp de citire",
+    "description": "Label for the estimated reading time statistic"
+  },
+  "statUniqueWords": {
+    "message": "Cuvinte unice",
+    "description": "Label for the unique word count statistic"
+  },
+  "statLongestWord": {
+    "message": "Cuvântul cel mai lung",
+    "description": "Label for the longest word found in the text"
+  },
+  "readingTimeMinutes": {
+    "message": "$MINUTES$ min",
+    "description": "Formatted reading time value. $MINUTES$ is replaced with the number of minutes.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "2.5"
+      }
+    }
+  },
+  "readingTimeLessThanHalf": {
+    "message": "< 0,5 min",
+    "description": "Reading time label shown when the text is very short (less than half a minute)"
+  },
+  "noTextFound": {
+    "message": "Nu s-a găsit text citibil pe această pagină.",
+    "description": "Message shown when the extension cannot find any text to analyze"
+  },
+  "errorGeneric": {
+    "message": "Nu se poate analiza această pagină. Încearcă o altă filă.",
+    "description": "Generic error message shown when the extension fails to access or analyze the page"
+  },
+  "errorRestrictedPage": {
+    "message": "Această pagină nu poate fi analizată (URL restricționat).",
+    "description": "Error message shown when the extension tries to run on a restricted browser page such as chrome:// or the Web Store"
+  },
+  "noSelectionFallback": {
+    "message": "Niciun text selectat — se afișează statisticile întregii pagini.",
+    "description": "Informational notice shown when the user has no text selected and the extension falls back to full-page analysis"
+  },
+  "footerNote": {
+    "message": "Viteză de citire: 200 cuvinte/min",
+    "description": "Small footer note explaining the reading speed assumption used for the reading time calculation"
+  },
+  "copyButton": {
+    "message": "Copiază statisticile",
+    "description": "Label for the button that copies the statistics to the clipboard"
+  },
+  "copySuccess": {
+    "message": "Copiat!",
+    "description": "Temporary feedback message shown after the stats have been successfully copied to the clipboard"
+  },
+  "copyError": {
+    "message": "Copiere eșuată",
+    "description": "Temporary feedback message shown when copying to the clipboard fails"
+  },
+  "zeroValue": {
+    "message": "0",
+    "description": "Displayed value when a statistic is zero"
+  },
+  "noneValue": {
+    "message": "\u2014",
+    "description": "Displayed value when a statistic has no applicable result, such as the longest word when there are no words"
+  }
+}

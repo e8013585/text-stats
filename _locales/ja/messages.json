@@ -1,0 +1,132 @@
+{
+  "extensionName": {
+    "message": "テキスト統計",
+    "description": "The name of the extension"
+  },
+  "extensionShortName": {
+    "message": "テキスト統計",
+    "description": "The short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "選択したテキストまたはページ全体のテキストを分析し、詳細な統計を表示します。",
+    "description": "The description of the extension shown in the Chrome Web Store and extensions page"
+  },
+  "extensionTitle": {
+    "message": "テキスト統計",
+    "description": "The tooltip title shown when hovering the extension icon"
+  },
+  "popupHeading": {
+    "message": "テキスト統計",
+    "description": "Main heading displayed at the top of the popup"
+  },
+  "popupSubheading": {
+    "message": "ひと目でわかるテキスト分析",
+    "description": "Subheading displayed below the main heading in the popup"
+  },
+  "toggleFullPage": {
+    "message": "ページ全体を分析",
+    "description": "Label for the toggle button that switches to full-page analysis mode"
+  },
+  "toggleSelection": {
+    "message": "選択範囲を分析",
+    "description": "Label for the toggle button that switches to selected-text analysis mode"
+  },
+  "modeSelected": {
+    "message": "分析中: 選択テキスト",
+    "description": "Status badge text shown when the extension is analyzing the selected text"
+  },
+  "modeFullPage": {
+    "message": "分析中: ページ全体",
+    "description": "Status badge text shown when the extension is analyzing the full page text"
+  },
+  "spinnerLabel": {
+    "message": "テキストを分析中…",
+    "description": "Accessible label and visible text shown next to the loading spinner"
+  },
+  "statCharactersWithSpaces": {
+    "message": "文字数（スペース含む）",
+    "description": "Label for the character count statistic that includes spaces"
+  },
+  "statCharactersNoSpaces": {
+    "message": "文字数（スペース除く）",
+    "description": "Label for the character count statistic that excludes spaces"
+  },
+  "statWords": {
+    "message": "単語数",
+    "description": "Label for the total word count statistic"
+  },
+  "statSentences": {
+    "message": "文の数",
+    "description": "Label for the total sentence count statistic"
+  },
+  "statParagraphs": {
+    "message": "段落数",
+    "description": "Label for the total paragraph count statistic"
+  },
+  "statReadingTime": {
+    "message": "読了時間",
+    "description": "Label for the estimated reading time statistic"
+  },
+  "statUniqueWords": {
+    "message": "固有の単語数",
+    "description": "Label for the unique word count statistic"
+  },
+  "statLongestWord": {
+    "message": "最長の単語",
+    "description": "Label for the longest word found in the text"
+  },
+  "readingTimeMinutes": {
+    "message": "$MINUTES$ 分",
+    "description": "Formatted reading time value. $MINUTES$ is replaced with the number of minutes.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "2.5"
+      }
+    }
+  },
+  "readingTimeLessThanHalf": {
+    "message": "< 0.5 分",
+    "description": "Reading time label shown when the text is very short (less than half a minute)"
+  },
+  "noTextFound": {
+    "message": "このページに読み取り可能なテキストが見つかりませんでした。",
+    "description": "Message shown when the extension cannot find any text to analyze"
+  },
+  "errorGeneric": {
+    "message": "このページを分析できません。別のタブをお試しください。",
+    "description": "Generic error message shown when the extension fails to access or analyze the page"
+  },
+  "errorRestrictedPage": {
+    "message": "このページは分析できません（制限付きURL）。",
+    "description": "Error message shown when the extension tries to run on a restricted browser page such as chrome:// or the Web Store"
+  },
+  "noSelectionFallback": {
+    "message": "テキストが選択されていません — ページ全体の統計を表示しています。",
+    "description": "Informational notice shown when the user has no text selected and the extension falls back to full-page analysis"
+  },
+  "footerNote": {
+    "message": "読書速度: 200語/分",
+    "description": "Small footer note explaining the reading speed assumption used for the reading time calculation"
+  },
+  "copyButton": {
+    "message": "統計をコピー",
+    "description": "Label for the button that copies the statistics to the clipboard"
+  },
+  "copySuccess": {
+    "message": "コピーしました！",
+    "description": "Temporary feedback message shown after the stats have been successfully copied to the clipboard"
+  },
+  "copyError": {
+    "message": "コピーに失敗しました",
+    "description": "Temporary feedback message shown when copying to the clipboard fails"
+  },
+  "zeroValue": {
+    "message": "0",
+    "description": "Displayed value when a statistic is zero"
+  },
+  "noneValue": {
+    "message": "—",
+    "description": "Displayed value when a statistic has no applicable result, such as the longest word when there are no words"
+  }
+}

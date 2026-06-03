@@ -1,0 +1,132 @@
+{
+  "extensionName": {
+    "message": "Metin İstatistikleri",
+    "description": "The name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Metin İstatistikleri",
+    "description": "The short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Seçili metni veya tüm sayfa metnini analiz edin ve ayrıntılı istatistikler görüntüleyin.",
+    "description": "The description of the extension shown in the Chrome Web Store and extensions page"
+  },
+  "extensionTitle": {
+    "message": "Metin İstatistikleri",
+    "description": "The tooltip title shown when hovering the extension icon"
+  },
+  "popupHeading": {
+    "message": "Metin İstatistikleri",
+    "description": "Main heading displayed at the top of the popup"
+  },
+  "popupSubheading": {
+    "message": "Bir bakışta metin analizi",
+    "description": "Subheading displayed below the main heading in the popup"
+  },
+  "toggleFullPage": {
+    "message": "Sayfanın tamamını analiz et",
+    "description": "Label for the toggle button that switches to full-page analysis mode"
+  },
+  "toggleSelection": {
+    "message": "Seçimi analiz et",
+    "description": "Label for the toggle button that switches to selected-text analysis mode"
+  },
+  "modeSelected": {
+    "message": "Analiz: Seçili metin",
+    "description": "Status badge text shown when the extension is analyzing the selected text"
+  },
+  "modeFullPage": {
+    "message": "Analiz: Sayfa tamamı",
+    "description": "Status badge text shown when the extension is analyzing the full page text"
+  },
+  "spinnerLabel": {
+    "message": "Metin analiz ediliyor\u2026",
+    "description": "Accessible label and visible text shown next to the loading spinner"
+  },
+  "statCharactersWithSpaces": {
+    "message": "Karakter (boşluklu)",
+    "description": "Label for the character count statistic that includes spaces"
+  },
+  "statCharactersNoSpaces": {
+    "message": "Karakter (boşluksuz)",
+    "description": "Label for the character count statistic that excludes spaces"
+  },
+  "statWords": {
+    "message": "Sözcük sayısı",
+    "description": "Label for the total word count statistic"
+  },
+  "statSentences": {
+    "message": "Cümle sayısı",
+    "description": "Label for the total sentence count statistic"
+  },
+  "statParagraphs": {
+    "message": "Paragraf sayısı",
+    "description": "Label for the total paragraph count statistic"
+  },
+  "statReadingTime": {
+    "message": "Okuma süresi",
+    "description": "Label for the estimated reading time statistic"
+  },
+  "statUniqueWords": {
+    "message": "Benzersiz sözcükler",
+    "description": "Label for the unique word count statistic"
+  },
+  "statLongestWord": {
+    "message": "En uzun sözcük",
+    "description": "Label for the longest word found in the text"
+  },
+  "readingTimeMinutes": {
+    "message": "$MINUTES$ dk",
+    "description": "Formatted reading time value. $MINUTES$ is replaced with the number of minutes.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "2.5"
+      }
+    }
+  },
+  "readingTimeLessThanHalf": {
+    "message": "< 0,5 dk",
+    "description": "Reading time label shown when the text is very short (less than half a minute)"
+  },
+  "noTextFound": {
+    "message": "Bu sayfada okunabilir metin bulunamadı.",
+    "description": "Message shown when the extension cannot find any text to analyze"
+  },
+  "errorGeneric": {
+    "message": "Bu sayfa analiz edilemiyor. Farklı bir sekme deneyin.",
+    "description": "Generic error message shown when the extension fails to access or analyze the page"
+  },
+  "errorRestrictedPage": {
+    "message": "Bu sayfa analiz edilemez (kısıtlı URL).",
+    "description": "Error message shown when the extension tries to run on a restricted browser page such as chrome:// or the Web Store"
+  },
+  "noSelectionFallback": {
+    "message": "Seçili metin yok — tüm sayfa istatistikleri gösteriliyor.",
+    "description": "Informational notice shown when the user has no text selected and the extension falls back to full-page analysis"
+  },
+  "footerNote": {
+    "message": "Okuma hızı: 200 sözcük/dk",
+    "description": "Small footer note explaining the reading speed assumption used for the reading time calculation"
+  },
+  "copyButton": {
+    "message": "İstatistikleri kopyala",
+    "description": "Label for the button that copies the statistics to the clipboard"
+  },
+  "copySuccess": {
+    "message": "Kopyalandı!",
+    "description": "Temporary feedback message shown after the stats have been successfully copied to the clipboard"
+  },
+  "copyError": {
+    "message": "Kopyalama başarısız",
+    "description": "Temporary feedback message shown when copying to the clipboard fails"
+  },
+  "zeroValue": {
+    "message": "0",
+    "description": "Displayed value when a statistic is zero"
+  },
+  "noneValue": {
+    "message": "\u2014",
+    "description": "Displayed value when a statistic has no applicable result, such as the longest word when there are no words"
+  }
+}

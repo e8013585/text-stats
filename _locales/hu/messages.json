@@ -1,0 +1,132 @@
+{
+  "extensionName": {
+    "message": "Szöveg statisztikák",
+    "description": "The name of the extension"
+  },
+  "extensionShortName": {
+    "message": "Szöveg statisztikák",
+    "description": "The short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Elemezze a kijelölt szöveget vagy a teljes oldal szövegét, és részletes statisztikákat jelenítsen meg.",
+    "description": "The description of the extension shown in the Chrome Web Store and extensions page"
+  },
+  "extensionTitle": {
+    "message": "Szöveg statisztikák",
+    "description": "The tooltip title shown when hovering the extension icon"
+  },
+  "popupHeading": {
+    "message": "Szöveg statisztikák",
+    "description": "Main heading displayed at the top of the popup"
+  },
+  "popupSubheading": {
+    "message": "Szövegelemzés egy pillantásra",
+    "description": "Subheading displayed below the main heading in the popup"
+  },
+  "toggleFullPage": {
+    "message": "Teljes oldal elemzése",
+    "description": "Label for the toggle button that switches to full-page analysis mode"
+  },
+  "toggleSelection": {
+    "message": "Kijelölés elemzése",
+    "description": "Label for the toggle button that switches to selected-text analysis mode"
+  },
+  "modeSelected": {
+    "message": "Elemzés: Kijelölt szöveg",
+    "description": "Status badge text shown when the extension is analyzing the selected text"
+  },
+  "modeFullPage": {
+    "message": "Elemzés: Teljes oldal",
+    "description": "Status badge text shown when the extension is analyzing the full page text"
+  },
+  "spinnerLabel": {
+    "message": "Szöveg elemzése\u2026",
+    "description": "Accessible label and visible text shown next to the loading spinner"
+  },
+  "statCharactersWithSpaces": {
+    "message": "Karakterek (szóközökkel)",
+    "description": "Label for the character count statistic that includes spaces"
+  },
+  "statCharactersNoSpaces": {
+    "message": "Karakterek (szóközök nélkül)",
+    "description": "Label for the character count statistic that excludes spaces"
+  },
+  "statWords": {
+    "message": "Szavak száma",
+    "description": "Label for the total word count statistic"
+  },
+  "statSentences": {
+    "message": "Mondatok száma",
+    "description": "Label for the total sentence count statistic"
+  },
+  "statParagraphs": {
+    "message": "Bekezdések száma",
+    "description": "Label for the total paragraph count statistic"
+  },
+  "statReadingTime": {
+    "message": "Olvasási idő",
+    "description": "Label for the estimated reading time statistic"
+  },
+  "statUniqueWords": {
+    "message": "Egyedi szavak",
+    "description": "Label for the unique word count statistic"
+  },
+  "statLongestWord": {
+    "message": "Leghosszabb szó",
+    "description": "Label for the longest word found in the text"
+  },
+  "readingTimeMinutes": {
+    "message": "$MINUTES$ perc",
+    "description": "Formatted reading time value. $MINUTES$ is replaced with the number of minutes.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "2.5"
+      }
+    }
+  },
+  "readingTimeLessThanHalf": {
+    "message": "< 0,5 perc",
+    "description": "Reading time label shown when the text is very short (less than half a minute)"
+  },
+  "noTextFound": {
+    "message": "Ezen az oldalon nem található olvasható szöveg.",
+    "description": "Message shown when the extension cannot find any text to analyze"
+  },
+  "errorGeneric": {
+    "message": "Az oldal nem elemezhető. Próbálkozz egy másik lappal.",
+    "description": "Generic error message shown when the extension fails to access or analyze the page"
+  },
+  "errorRestrictedPage": {
+    "message": "Ez az oldal nem elemezhető (korlátozott URL).",
+    "description": "Error message shown when the extension tries to run on a restricted browser page such as chrome:// or the Web Store"
+  },
+  "noSelectionFallback": {
+    "message": "Nincs kijelölt szöveg — a teljes oldal statisztikái jelennek meg.",
+    "description": "Informational notice shown when the user has no text selected and the extension falls back to full-page analysis"
+  },
+  "footerNote": {
+    "message": "Olvasási sebesség: 200 szó/perc",
+    "description": "Small footer note explaining the reading speed assumption used for the reading time calculation"
+  },
+  "copyButton": {
+    "message": "Statisztikák másolása",
+    "description": "Label for the button that copies the statistics to the clipboard"
+  },
+  "copySuccess": {
+    "message": "Másolva!",
+    "description": "Temporary feedback message shown after the stats have been successfully copied to the clipboard"
+  },
+  "copyError": {
+    "message": "Másolás sikertelen",
+    "description": "Temporary feedback message shown when copying to the clipboard fails"
+  },
+  "zeroValue": {
+    "message": "0",
+    "description": "Displayed value when a statistic is zero"
+  },
+  "noneValue": {
+    "message": "\u2014",
+    "description": "Displayed value when a statistic has no applicable result, such as the longest word when there are no words"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "extensionName": {
+    "message": "ਟੈਕਸਟ ਅੰਕੜੇ",
+    "description": "The name of the extension"
+  },
+  "extensionShortName": {
+    "message": "ਟੈਕਸਟ ਅੰਕੜੇ",
+    "description": "The short name of the extension"
+  },
+  "extensionDescription": {
+    "message": "ਚੁਣੇ ਗਏ ਟੈਕਸਟ ਜਾਂ ਪੂਰੇ ਪੰਨੇ ਦੇ ਟੈਕਸਟ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ ਅਤੇ ਵਿਸਤ੍ਰਿਤ ਅੰਕੜੇ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰੋ।",
+    "description": "The description of the extension shown in the Chrome Web Store and extensions page"
+  },
+  "extensionTitle": {
+    "message": "ਟੈਕਸਟ ਅੰਕੜੇ",
+    "description": "The tooltip title shown when hovering the extension icon"
+  },
+  "popupHeading": {
+    "message": "ਟੈਕਸਟ ਅੰਕੜੇ",
+    "description": "Main heading displayed at the top of the popup"
+  },
+  "popupSubheading": {
+    "message": "ਇੱਕ ਨਜ਼ਰ ਵਿੱਚ ਟੈਕਸਟ ਵਿਸ਼ਲੇਸ਼ਣ",
+    "description": "Subheading displayed below the main heading in the popup"
+  },
+  "toggleFullPage": {
+    "message": "ਪੂਰੇ ਪੰਨੇ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ",
+    "description": "Label for the toggle button that switches to full-page analysis mode"
+  },
+  "toggleSelection": {
+    "message": "ਚੁਣੇ ਹੋਏ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ",
+    "description": "Label for the toggle button that switches to selected-text analysis mode"
+  },
+  "modeSelected": {
+    "message": "ਵਿਸ਼ਲੇਸ਼ਣ: ਚੁਣਿਆ ਟੈਕਸਟ",
+    "description": "Status badge text shown when the extension is analyzing the selected text"
+  },
+  "modeFullPage": {
+    "message": "ਵਿਸ਼ਲੇਸ਼ਣ: ਪੂਰਾ ਪੰਨਾ",
+    "description": "Status badge text shown when the extension is analyzing the full page text"
+  },
+  "spinnerLabel": {
+    "message": "ਟੈਕਸਟ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਹੋ ਰਿਹਾ ਹੈ\u2026",
+    "description": "Accessible label and visible text shown next to the loading spinner"
+  },
+  "statCharactersWithSpaces": {
+    "message": "ਅੱਖਰ (ਸਪੇਸ ਸਮੇਤ)",
+    "description": "Label for the character count statistic that includes spaces"
+  },
+  "statCharactersNoSpaces": {
+    "message": "ਅੱਖਰ (ਸਪੇਸ ਤੋਂ ਬਿਨਾਂ)",
+    "description": "Label for the character count statistic that excludes spaces"
+  },
+  "statWords": {
+    "message": "ਸ਼ਬਦ ਗਿਣਤੀ",
+    "description": "Label for the total word count statistic"
+  },
+  "statSentences": {
+    "message": "ਵਾਕ ਗਿਣਤੀ",
+    "description": "Label for the total sentence count statistic"
+  },
+  "statParagraphs": {
+    "message": "ਪੈਰਾਗ੍ਰਾਫ ਗਿਣਤੀ",
+    "description": "Label for the total paragraph count statistic"
+  },
+  "statReadingTime": {
+    "message": "ਪੜ੍ਹਨ ਦਾ ਸਮਾਂ",
+    "description": "Label for the estimated reading time statistic"
+  },
+  "statUniqueWords": {
+    "message": "ਵਿਲੱਖਣ ਸ਼ਬਦ",
+    "description": "Label for the unique word count statistic"
+  },
+  "statLongestWord": {
+    "message": "ਸਭ ਤੋਂ ਲੰਮਾ ਸ਼ਬਦ",
+    "description": "Label for the longest word found in the text"
+  },
+  "readingTimeMinutes": {
+    "message": "$MINUTES$ ਮਿੰਟ",
+    "description": "Formatted reading time value. $MINUTES$ is replaced with the number of minutes.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "2.5"
+      }
+    }
+  },
+  "readingTimeLessThanHalf": {
+    "message": "< 0.5 ਮਿੰਟ",
+    "description": "Reading time label shown when the text is very short (less than half a minute)"
+  },
+  "noTextFound": {
+    "message": "ਇਸ ਪੰਨੇ 'ਤੇ ਕੋਈ ਪੜ੍ਹਨਯੋਗ ਟੈਕਸਟ ਨਹੀਂ ਮਿਲਿਆ।",
+    "description": "Message shown when the extension cannot find any text to analyze"
+  },
+  "errorGeneric": {
+    "message": "ਇਸ ਪੰਨੇ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ। ਕੋਈ ਹੋਰ ਟੈਬ ਅਜ਼ਮਾਓ।",
+    "description": "Generic error message shown when the extension fails to access or analyze the page"
+  },
+  "errorRestrictedPage": {
+    "message": "ਇਸ ਪੰਨੇ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ (ਪ੍ਰਤਿਬੰਧਿਤ URL)।",
+    "description": "Error message shown when the extension tries to run on a restricted browser page such as chrome:// or the Web Store"
+  },
+  "noSelectionFallback": {
+    "message": "ਕੋਈ ਟੈਕਸਟ ਚੁਣਿਆ ਨਹੀਂ — ਪੂਰੇ ਪੰਨੇ ਦੇ ਅੰਕੜੇ ਦਿਖਾ ਰਿਹਾ ਹੈ।",
+    "description": "Informational notice shown when the user has no text selected and the extension falls back to full-page analysis"
+  },
+  "footerNote": {
+    "message": "ਪੜ੍ਹਨ ਦੀ ਗਤੀ: 200 ਸ਼ਬਦ ਪ੍ਰਤਿ ਮਿੰਟ",
+    "description": "Small footer note explaining the reading speed assumption used for the reading time calculation"
+  },
+  "copyButton": {
+    "message": "ਅੰਕੜੇ ਕਾਪੀ ਕਰੋ",
+    "description": "Label for the button that copies the statistics to the clipboard"
+  },
+  "copySuccess": {
+    "message": "ਕਾਪੀ ਹੋ ਗਿਆ!",
+    "description": "Temporary feedback message shown after the stats have been successfully copied to the clipboard"
+  },
+  "copyError": {
+    "message": "ਕਾਪੀ ਅਸਫਲ",
+    "description": "Temporary feedback message shown when copying to the clipboard fails"
+  },
+  "zeroValue": {
+    "message": "੦",
+    "description": "Displayed value when a statistic is zero"
+  },
+  "noneValue": {
+    "message": "\u2014",
+    "description": "Displayed value when a statistic has no applicable result, such as the longest word when there are no words"
+  }
+}
